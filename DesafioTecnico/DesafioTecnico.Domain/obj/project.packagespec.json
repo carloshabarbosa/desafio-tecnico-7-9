@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj",
+    "projectName": "DesafioTecnico.Domain",
+    "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj",
+    "outputPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/DesafioTecnico.Domain.Core.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/DesafioTecnico.Domain.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

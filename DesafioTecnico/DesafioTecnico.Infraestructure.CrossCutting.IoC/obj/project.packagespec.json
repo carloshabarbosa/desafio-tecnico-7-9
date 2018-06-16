@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj",
+    "projectName": "DesafioTecnico.Infraestructure.CrossCutting.IoC",
+    "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj",
+    "outputPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

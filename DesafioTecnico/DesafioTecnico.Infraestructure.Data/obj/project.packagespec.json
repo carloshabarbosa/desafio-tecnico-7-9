@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj",
+    "projectName": "DesafioTecnico.Infraestructure.Data",
+    "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj",
+    "outputPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

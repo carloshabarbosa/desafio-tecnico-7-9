@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Services" />
+    <Folder Include="Validations" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioTecnico.Domain.Core\DesafioTecnico.Domain.Core.csproj" />
+  </ItemGroup>
+</Project>

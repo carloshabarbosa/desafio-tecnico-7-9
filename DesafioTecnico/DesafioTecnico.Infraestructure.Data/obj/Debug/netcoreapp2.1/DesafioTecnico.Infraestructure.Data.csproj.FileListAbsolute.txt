@@ -1,0 +1,14 @@
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.deps.json
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojAssemblyReference.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CoreCompileInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfoInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfo.cs
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CopyComplete
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb
