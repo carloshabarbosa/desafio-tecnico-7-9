@@ -8,22 +8,30 @@ namespace DesafioTecnico.Infraestructure.Data.Context
 {
     public class DesafioTecnicoContext: DbContext
     {
+        public DesafioTecnicoContext()
+        {
+            
+        }
         public DbSet<Candidate> Candidates { get; set; }
+        public DbSet<CandidateTecnology> CandidateTecnologies { get; set; }
         public DbSet<Company> Companies { get; set; }
-        public DbSet<Interview> Interviews { get; set; }
+        public DbSet<CompanyTecnology> CompanyTecnologies { get; set; }
         public DbSet<JobOpportunity> JobOpportunities { get; set; }
+        public DbSet<JobOpportunityTecnology> JobOpportunityTecnologies { get; set; }
         public DbSet<Tecnology> Tecnologies { get; set; }
-        public DbSet<TecnologyWeight> TecnologyWeights { get; set; }    
         
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CandidateMap());
+            modelBuilder.ApplyConfiguration(new CandidateTecnologyMap());
             modelBuilder.ApplyConfiguration(new CompanyMap());
-            modelBuilder.ApplyConfiguration(new InterviewMap());
+            modelBuilder.ApplyConfiguration(new CompanyTecnologyMap());
             modelBuilder.ApplyConfiguration(new JobOpportunityMap());
+            modelBuilder.ApplyConfiguration(new JobOpportunityTecnologyMap());
             modelBuilder.ApplyConfiguration(new TecnologyMap());
-            modelBuilder.ApplyConfiguration(new TecnologyWightMap());
+//            modelBuilder.ApplyConfiguration(new TecnologyWightMap());
+            
             
             base.OnModelCreating(modelBuilder);
         }
@@ -38,6 +46,8 @@ namespace DesafioTecnico.Infraestructure.Data.Context
             
             // define the database to use
             optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            
+            
         }
 
     }

@@ -1,4 +1,6 @@
 /home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.deps.json
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.runtimeconfig.json
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.runtimeconfig.dev.json
 /home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll
 /home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb
 /home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll

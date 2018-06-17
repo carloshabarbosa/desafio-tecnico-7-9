@@ -14,7 +14,14 @@
     ],
     "frameworks": {
       "netcoreapp2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/DesafioTecnico.Application.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/DesafioTecnico.Application.csproj"
+          },
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,6 +33,10 @@
   "frameworks": {
     "netcoreapp2.1": {
       "dependencies": {
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",

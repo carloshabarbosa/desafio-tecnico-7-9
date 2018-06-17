@@ -10,20 +10,16 @@ namespace DesafioTecnico.Infraestructure.Data.Mappings
         {
             builder.HasKey(t => t.Id);
             
-            builder.Property(t => t.Id)
-                .HasField("id");
+            builder.Property(t => t.Id);
 
             builder.Property(t => t.Name)
-                .HasField("name")
                 .HasMaxLength(60)
                 .IsRequired();
 
             builder.Property(t => t.IsActive)
-                .HasField("isActive")
                 .IsRequired();
 
             builder.Property(t => t.CreatedAt)
-                .HasField("createdAt")
                 .IsRequired();
 
         }

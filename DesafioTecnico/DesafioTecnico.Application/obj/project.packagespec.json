@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

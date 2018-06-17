@@ -14,7 +14,17 @@
     ],
     "frameworks": {
       "netcoreapp2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/DesafioTecnico.Application.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/DesafioTecnico.Application.csproj"
+          },
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj"
+          },
+          "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj": {
+            "projectPath": "/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

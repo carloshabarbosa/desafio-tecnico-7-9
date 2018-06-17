@@ -3,10 +3,11 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Services" />
-    <Folder Include="Validations" />
+    <ProjectReference Include="..\DesafioTecnico.Domain.Core\DesafioTecnico.Domain.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DesafioTecnico.Domain.Core\DesafioTecnico.Domain.Core.csproj" />
+    <PackageReference Include="FluentValidation">
+      <Version>7.6.103</Version>
+    </PackageReference>
   </ItemGroup>
 </Project>

@@ -1,15 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-    <PropertyGroup>
-        <TargetFramework>netcoreapp2.1</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <Folder Include="wwwroot\"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.App"/>
-    </ItemGroup>
-
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioTecnico.Application\DesafioTecnico.Application.csproj" />
+    <ProjectReference Include="..\DesafioTecnico.Domain\DesafioTecnico.Domain.csproj" />
+    <ProjectReference Include="..\DesafioTecnico.Infraestructure.CrossCutting.IoC\DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj" />
+  </ItemGroup>
 </Project>

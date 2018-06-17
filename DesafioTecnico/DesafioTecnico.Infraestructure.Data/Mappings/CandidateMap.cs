@@ -11,30 +11,24 @@ namespace DesafioTecnico.Infraestructure.Data.Mappings
             builder.HasKey(c => c.Id);
             
             builder.Property(c => c.Id)
-                .HasField("Id")
                 .IsRequired();
 
             builder.Property(c => c.Address)
-                .HasField("address")
                 .HasMaxLength(70)
                 .IsRequired();
 
             builder.Property(c => c.Cpf)
-                .HasField("cpf")
                 .HasMaxLength(15)
                 .IsRequired();
 
             builder.Property(c => c.Phone)
-                .HasField("phone")
                 .IsRequired()
-                .HasMaxLength(12);
+                .HasMaxLength(15);
 
             builder.Property(c => c.CreatedAt)
-                .HasField("createdAt")
                 .IsRequired();
 
             builder.Property(c => c.Name)
-                .HasField("name")
                 .HasMaxLength(70)
                 .IsRequired();
 
