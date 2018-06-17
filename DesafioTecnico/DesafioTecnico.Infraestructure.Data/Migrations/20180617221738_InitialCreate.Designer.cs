@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DesafioTecnico.Infraestructure.Data.Migrations
 {
     [DbContext(typeof(DesafioTecnicoContext))]
-    [Migration("20180617194422_InitialCreate")]
+    [Migration("20180617221738_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,7 +44,7 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasMaxLength(12);
+                        .HasMaxLength(15);
 
                     b.HasKey("Id");
 
@@ -119,28 +119,6 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
                     b.HasIndex("TecnologyId");
 
                     b.ToTable("CompanyTecnologies");
-                });
-
-            modelBuilder.Entity("DesafioTecnico.Domain.Models.Interview", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<Guid?>("CandidateId");
-
-                    b.Property<DateTime>("CreatedAt");
-
-                    b.Property<Guid?>("JobOpportunityId");
-
-                    b.Property<string>("Notes");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CandidateId");
-
-                    b.HasIndex("JobOpportunityId");
-
-                    b.ToTable("Interviews");
                 });
 
             modelBuilder.Entity("DesafioTecnico.Domain.Models.JobOpportunity", b =>
@@ -229,17 +207,6 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
                     b.HasOne("DesafioTecnico.Domain.Models.Tecnology", "Tecnology")
                         .WithMany()
                         .HasForeignKey("TecnologyId");
-                });
-
-            modelBuilder.Entity("DesafioTecnico.Domain.Models.Interview", b =>
-                {
-                    b.HasOne("DesafioTecnico.Domain.Models.Candidate", "Candidate")
-                        .WithMany()
-                        .HasForeignKey("CandidateId");
-
-                    b.HasOne("DesafioTecnico.Domain.Models.JobOpportunity", "JobOpportunity")
-                        .WithMany()
-                        .HasForeignKey("JobOpportunityId");
                 });
 
             modelBuilder.Entity("DesafioTecnico.Domain.Models.JobOpportunity", b =>

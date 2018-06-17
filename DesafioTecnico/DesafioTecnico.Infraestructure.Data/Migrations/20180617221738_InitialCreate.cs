@@ -92,7 +92,7 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
                     Name = table.Column<string>(maxLength: 70, nullable: false),
                     Cpf = table.Column<string>(maxLength: 15, nullable: false),
                     Address = table.Column<string>(maxLength: 70, nullable: false),
-                    Phone = table.Column<string>(maxLength: 12, nullable: false),
+                    Phone = table.Column<string>(maxLength: 15, nullable: false),
                     JobOpportunityId = table.Column<Guid>(nullable: true)
                 },
                 constraints: table =>
@@ -159,33 +159,6 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Interviews",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(nullable: false),
-                    CreatedAt = table.Column<DateTime>(nullable: false),
-                    Notes = table.Column<string>(nullable: true),
-                    JobOpportunityId = table.Column<Guid>(nullable: true),
-                    CandidateId = table.Column<Guid>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Interviews", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Interviews_Candidates_CandidateId",
-                        column: x => x.CandidateId,
-                        principalTable: "Candidates",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Interviews_JobOpportunities_JobOpportunityId",
-                        column: x => x.JobOpportunityId,
-                        principalTable: "JobOpportunities",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Candidates_JobOpportunityId",
                 table: "Candidates",
@@ -212,16 +185,6 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
                 column: "TecnologyId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Interviews_CandidateId",
-                table: "Interviews",
-                column: "CandidateId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Interviews_JobOpportunityId",
-                table: "Interviews",
-                column: "JobOpportunityId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_JobOpportunities_CompanyId",
                 table: "JobOpportunities",
                 column: "CompanyId");
@@ -244,9 +207,6 @@ namespace DesafioTecnico.Infraestructure.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "CompanyTecnologies");
-
-            migrationBuilder.DropTable(
-                name: "Interviews");
 
             migrationBuilder.DropTable(
                 name: "JobOpportunityTecnologies");

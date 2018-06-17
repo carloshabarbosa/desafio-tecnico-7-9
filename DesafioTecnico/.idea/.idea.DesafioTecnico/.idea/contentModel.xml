@@ -174,8 +174,8 @@
           <e p="TecnologyWightMap.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20180617194422_InitialCreate.Designer.cs" t="Include" />
-          <e p="20180617194422_InitialCreate.cs" t="Include" />
+          <e p="20180617221738_InitialCreate.Designer.cs" t="Include" />
+          <e p="20180617221738_InitialCreate.cs" t="Include" />
           <e p="DesafioTecnicoContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Repository" t="Include">

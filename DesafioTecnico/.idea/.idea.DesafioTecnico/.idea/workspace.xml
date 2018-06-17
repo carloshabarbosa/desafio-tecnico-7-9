@@ -4,127 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs" line="21" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6dff717-014f-47db-af48-dc3a7ed9d2f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.DesafioTecnico-7-9/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.DesafioTecnico-7-9/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.DesafioTecnico-7-9/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.DesafioTecnico-7-9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.DesafioTecnico-7-9/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Tecnology/TecnologyApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Tecnology/ITecnologyApplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/Candidate/ICandidateRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/Company/ICompanyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/CompanyTecnology/ICompanyTecnologyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/JobOpportunity/IJobOpportunityRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/Tecnology/ITecnologyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/CompanyTecnology/ICompanyTecnologyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Tecnology/ITecnologyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/CandidateTecnology.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/CompanyTecnology.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunityTecnology.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/CompanyTecnology/CompanyTecnologyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Tecnology/TecnologyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateIsValidValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/DeleteCandidateValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Company/CompanyIsValidValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Company/CompanyValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Company/DeleteCompanyValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CompanyTecnologyValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CompanyValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/InterviewValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/JobOpportunityTecnologyValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/JobOpportunityValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyWeightValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/DependencyInjetctionBootStrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateTecnologyMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CompanyTecnologyMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/JobOpportunityTecnologyMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Company/CompanyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/CompanyTecnology/CompanyTecnologyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Tecnology/TecnologyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesafioTecnico.Application/Controllers/ValuesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/DesafioTecnico.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/DesafioTecnico.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/DesafioTecnico.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/DesafioTecnico.Application.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/Models/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/Models/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/Models/ValueObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/DesafioTecnico.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Candidate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Candidate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Company.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Interview.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Models/TecnologyWeight.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/DesafioTecnico.Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/DesafioTecnico.Domain.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Context/DesafioTecnicoContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Context/DesafioTecnicoContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/DesafioTecnico.Infraestructure.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CompanyMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CompanyMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/InterviewMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/JobOpportunityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/JobOpportunityMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyWightMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyWightMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/DesafioTecnico.Infraestructure.Data.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/DesafioTecnico.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/DesafioTecnico.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/DesafioTecnico.WebApi.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/DesafioTecnico.WebApi.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="d6dff717-014f-47db-af48-dc3a7ed9d2f2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,15 +164,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandidateTecnologies" pinned="false" current-in-tab="false">
-        <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/CandidateTecnologies">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CandidateService.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -350,8 +221,8 @@
       <file leaf-file-name="CandidateValidation.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateValidation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <marker date="1529249851356" expanded="false" signature="6:37" ph="..." />
                 <marker date="1529249851356" expanded="true" signature="92:1162" ph="{...}" />
@@ -619,7 +490,7 @@
       <workItem from="1529239679170" duration="11201000" />
       <workItem from="1529254162264" duration="2806000" />
       <workItem from="1529259859286" duration="6525000" />
-      <workItem from="1529271959970" duration="1486000" />
+      <workItem from="1529271959970" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando o projetp">
       <created>1529174323618</created>
@@ -628,11 +499,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529174323618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionando o projetp">
+      <created>1529273448527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529273448527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adicionando o projetp">
+      <created>1529273481661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529273481661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39830000" />
+    <option name="totallyTimeSpent" value="40137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,6 +530,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1600" height="902" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32930514" />
@@ -656,11 +542,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32903227" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49935484" visible="true" weight="0.20474967" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49935484" visible="true" weight="0.20474967" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3264516" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20731707" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3264516" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20731707" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50064516" side_tool="true" weight="0.16816431" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4683871" />
@@ -672,6 +557,7 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32903227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1312,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateValidation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <marker date="1529249851356" expanded="false" signature="6:37" ph="..." />
             <marker date="1529249851356" expanded="true" signature="92:1162" ph="{...}" />
