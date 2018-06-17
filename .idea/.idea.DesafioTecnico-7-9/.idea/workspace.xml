@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json" line="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3be8ab36-eb80-4372-8edd-69fd574b3d19" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico-7-9/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico-7-9/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico-7-9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico-7-9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico-7-9/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico-7-9.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/DesafioTecnico.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/DesafioTecnico.Application.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/DesafioTecnico.Application.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/DesafioTecnico.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="launchSettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <marker date="1529162575049" expanded="false" signature="6:255" ph="..." />
+                <marker date="1529162575049" expanded="true" signature="320:618" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="373:447" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <marker date="1529163362021" expanded="false" signature="6:402" ph="..." />
+                <marker date="1529163362021" expanded="true" signature="467:1393" ph="{...}" />
+                <marker date="1529163362021" expanded="true" signature="526:589" ph="{...}" />
+                <marker date="1529163362021" expanded="true" signature="812:921" ph="{...}" />
+                <marker date="1529163362021" expanded="true" signature="1109:1387" ph="{...}" />
+                <marker date="1529163362021" expanded="true" signature="1156:1233" ph="{...}" />
+                <marker date="1529163362021" expanded="true" signature="1250:1309" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <folding>
+                <marker date="1529162575049" expanded="true" signature="6:128" ph="..." />
+                <marker date="1529162575049" expanded="true" signature="283:984" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="388:462" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="565:613" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="710:730" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="842:862" ph="{...}" />
+                <marker date="1529162575049" expanded="true" signature="958:978" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DesafioTecnico.Application/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesafioTecnico.Application/Controllers/ValuesController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="y" value="-2" />
+    <option name="width" value="1600" />
+    <option name="height" value="902" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico-7-9 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico-7-9 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico-7-9 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1-Services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico-7-9 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1-Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.WebApi" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/EquinoxProject-master/Equinox.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesafioTecnico.Application" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DesafioTecnico.Application/DesafioTecnico.Application.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3be8ab36-eb80-4372-8edd-69fd574b3d19" name="Default" comment="" />
+      <created>1529161938975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529161938975</updated>
+      <workItem from="1529161943181" duration="3026000" />
+      <workItem from="1529165092631" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3044000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-2" width="1600" height="902" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32903227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25288832" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1529162575049" expanded="false" signature="6:255" ph="..." />
+            <marker date="1529162575049" expanded="true" signature="320:618" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="373:447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <marker date="1529163362021" expanded="false" signature="6:402" ph="..." />
+            <marker date="1529163362021" expanded="true" signature="467:1393" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="526:589" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="812:921" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1109:1387" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1156:1233" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1250:1309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1529162575049" expanded="true" signature="6:128" ph="..." />
+            <marker date="1529162575049" expanded="true" signature="283:984" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="388:462" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="565:613" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="710:730" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="842:862" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="958:978" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <marker date="1529163362021" expanded="false" signature="6:402" ph="..." />
+            <marker date="1529163362021" expanded="true" signature="467:1393" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="526:589" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="812:921" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1109:1387" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1156:1233" ph="{...}" />
+            <marker date="1529163362021" expanded="true" signature="1250:1309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1529162575049" expanded="false" signature="6:255" ph="..." />
+            <marker date="1529162575049" expanded="true" signature="320:618" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="373:447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1529162575049" expanded="true" signature="6:128" ph="..." />
+            <marker date="1529162575049" expanded="true" signature="283:984" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="388:462" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="565:613" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="710:730" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="842:862" ph="{...}" />
+            <marker date="1529162575049" expanded="true" signature="958:978" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

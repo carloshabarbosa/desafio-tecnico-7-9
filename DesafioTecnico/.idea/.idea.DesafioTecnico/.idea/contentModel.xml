@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_DesafioTecnico.1797019572.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DesafioTecnico.Application" t="IncludeRecursive">
+        <e p="Application" t="Include">
+          <e p="Candidate" t="Include">
+            <e p="CandidateApplication.cs" t="Include" />
+          </e>
+          <e p="Company" t="Include">
+            <e p="CompanyApplication.cs" t="Include" />
+          </e>
+          <e p="Tecnology" t="Include">
+            <e p="TecnologyApplication.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DesafioTecnico.Application.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="Candidate" t="Include">
+            <e p="ICandidateApplication.cs" t="Include" />
+          </e>
+          <e p="Company" t="Include">
+            <e p="ICompanyApplication.cs" t="Include" />
+          </e>
+          <e p="Tecnology" t="Include">
+            <e p="ITecnologyApplication.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesafioTecnico.Domain" t="IncludeRecursive">
+        <e p="DesafioTecnico.Domain.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="Repository" t="Include">
+            <e p="Candidate" t="Include">
+              <e p="ICandidateRepository.cs" t="Include" />
+            </e>
+            <e p="Company" t="Include">
+              <e p="ICompanyRepository.cs" t="Include" />
+            </e>
+            <e p="CompanyTecnology" t="Include">
+              <e p="ICompanyTecnologyRepository.cs" t="Include" />
+            </e>
+            <e p="IRepository.cs" t="Include" />
+            <e p="JobOpportunity" t="Include">
+              <e p="IJobOpportunityRepository.cs" t="Include" />
+            </e>
+            <e p="Tecnology" t="Include">
+              <e p="ITecnologyRepository.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Services" t="Include">
+            <e p="Candidate" t="Include">
+              <e p="ICandidateService.cs" t="Include" />
+            </e>
+            <e p="Company" t="Include">
+              <e p="ICompanyService.cs" t="Include" />
+            </e>
+            <e p="CompanyTecnology" t="Include">
+              <e p="ICompanyTecnologyService.cs" t="Include" />
+            </e>
+            <e p="JobOpportunity" t="Include">
+              <e p="IJobOpportunityService.cs" t="Include" />
+            </e>
+            <e p="Tecnology" t="Include">
+              <e p="ITecnologyService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Candidate.cs" t="Include" />
+          <e p="CandidateTecnology.cs" t="Include" />
+          <e p="Company.cs" t="Include" />
+          <e p="CompanyTecnology.cs" t="Include" />
+          <e p="JobOpportunity.cs" t="Include" />
+          <e p="JobOpportunityTecnology.cs" t="Include" />
+          <e p="Tecnology.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Candidate" t="Include">
+            <e p="CandidateService.cs" t="Include" />
+          </e>
+          <e p="Company" t="Include">
+            <e p="CompanyService.cs" t="Include" />
+          </e>
+          <e p="CompanyTecnology" t="Include">
+            <e p="CompanyTecnologyService.cs" t="Include" />
+          </e>
+          <e p="JobOpportunity" t="Include">
+            <e p="JobOpportunityService.cs" t="Include" />
+          </e>
+          <e p="Tecnology" t="Include">
+            <e p="TecnologyService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Validations" t="Include">
+          <e p="Candidate" t="Include">
+            <e p="CandidateIsValidValidation.cs" t="Include" />
+            <e p="CandidateValidation.cs" t="Include" />
+            <e p="DeleteCandidateValidation.cs" t="Include" />
+          </e>
+          <e p="Company" t="Include">
+            <e p="CompanyIsValidValidation.cs" t="Include" />
+            <e p="CompanyValidation.cs" t="Include" />
+            <e p="DeleteCompanyValidation.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ValueObjects" t="Include">
+          <e p="CandidateValueObject.cs" t="Include" />
+          <e p="CompanyTecnologyValueObject.cs" t="Include" />
+          <e p="CompanyValueObject.cs" t="Include" />
+          <e p="InterviewValueObject.cs" t="Include" />
+          <e p="JobOpportunityTecnologyValueObject.cs" t="Include" />
+          <e p="JobOpportunityValueObject.cs" t="Include" />
+          <e p="TecnologyValueObject.cs" t="Include" />
+          <e p="TecnologyWeightValueObject.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesafioTecnico.Domain.Core" t="IncludeRecursive">
+        <e p="DesafioTecnico.Domain.Core.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Entity.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.Domain.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesafioTecnico.Infraestructure.CrossCutting.IoC" t="IncludeRecursive">
+        <e p="DependencyInjetctionBootStrapper.cs" t="Include" />
+        <e p="DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.Infraestructure.CrossCutting.IoC.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DesafioTecnico.Infraestructure.Data" t="IncludeRecursive">
+        <e p="Context" t="Include">
+          <e p="DesafioTecnicoContext.cs" t="Include" />
+        </e>
+        <e p="DesafioTecnico.Infraestructure.Data.csproj" t="IncludeRecursive" />
+        <e p="Mappings" t="Include">
+          <e p="CandidateMap.cs" t="Include" />
+          <e p="CandidateTecnologyMap.cs" t="Include" />
+          <e p="CompanyMap.cs" t="Include" />
+          <e p="CompanyTecnologyMap.cs" t="Include" />
+          <e p="JobOpportunityMap.cs" t="Include" />
+          <e p="JobOpportunityTecnologyMap.cs" t="Include" />
+          <e p="TecnologyMap.cs" t="Include" />
+          <e p="TecnologyWightMap.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20180617194422_InitialCreate.Designer.cs" t="Include" />
+          <e p="20180617194422_InitialCreate.cs" t="Include" />
+          <e p="DesafioTecnicoContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="Candidate" t="Include">
+            <e p="CandidateRepository.cs" t="Include" />
+          </e>
+          <e p="Company" t="Include">
+            <e p="CompanyRepository.cs" t="Include" />
+          </e>
+          <e p="CompanyTecnology" t="Include">
+            <e p="CompanyTecnologyRepository.cs" t="Include" />
+          </e>
+          <e p="JobOpportunity" t="Include">
+            <e p="JobOpportunityRepository.cs" t="Include" />
+          </e>
+          <e p="Repository.cs" t="Include" />
+          <e p="Tecnology" t="Include">
+            <e p="TecnologyRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ca-certificates_20160104ubuntu1_all.deb" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.Infraestructure.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="openssl_1.0.2g-1ubuntu4_amd64.deb" t="Include" />
+      </e>
+      <e p="DesafioTecnico.WebApi" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="CandidateController.cs" t="Include" />
+          <e p="CompanyController.cs" t="Include" />
+          <e p="TecnologyController.cs" t="Include" />
+        </e>
+        <e p="DesafioTecnico.WebApi.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DesafioTecnico.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="DesafioTecnico.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="1-Services" t="Include" />
+        <e p="2-Application" t="Include" />
+        <e p="3-Domain" t="Include" />
+        <e p="4-Infraestructure" t="Include">
+          <e p="4.1-Data" t="Include" />
+          <e p="4.2-CrossCutting" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

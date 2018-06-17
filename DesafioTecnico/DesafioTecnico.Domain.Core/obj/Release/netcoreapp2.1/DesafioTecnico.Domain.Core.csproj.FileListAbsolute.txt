@@ -1,0 +1,9 @@
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.deps.json
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.csprojAssemblyReference.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.csproj.CoreCompileInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfoInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfo.cs
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Domain.Core/obj/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb

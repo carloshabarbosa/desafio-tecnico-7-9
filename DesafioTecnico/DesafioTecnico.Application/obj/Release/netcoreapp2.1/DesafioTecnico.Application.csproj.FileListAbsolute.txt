@@ -1,0 +1,14 @@
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Application.deps.json
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Application.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Application.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/bin/Release/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.csprojAssemblyReference.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.csproj.CoreCompileInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfoInputs.cache
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfo.cs
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.csproj.CopyComplete
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.dll
+/home/leca/projetos/DesafioTecnico-7-9/DesafioTecnico/DesafioTecnico.Application/obj/Release/netcoreapp2.1/DesafioTecnico.Application.pdb
