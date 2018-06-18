@@ -31,6 +31,11 @@ namespace DesafioTecnico.Domain.Services.Company
         {
             return _companyRepository.GetCompanies();
         }
+        
+        public List<Models.JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId)
+        {
+            return _jobOpportunityService.GetJobOpportunitiesByCompanyId(companyId);
+        }
 
         public List<Models.CompanyTecnology> GetTecnologyByCompany(Guid companyId)
         {

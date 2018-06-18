@@ -7,10 +7,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioTecnico.WebApi.Controllers
 {
+    /// <summary>
+    /// Controller responsável por ações da entidade de candidato
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class CandidateController : ControllerBase
     {
+        /// <summary>
+        /// Injeção das depências
+        /// </summary>
         private readonly ICandidateApplication _candidateApplication;
 
         public CandidateController(ICandidateApplication candidateApplication)
@@ -52,5 +58,14 @@ namespace DesafioTecnico.WebApi.Controllers
         {
             _candidateApplication.DeleteCandidate(id);
         }
+        
+        // GET api/company/GetCandidatesScoreByJobOpportunity/5
+        [HttpGet("{id}")]
+        [Route("GetCandidatesScoreByJobOpportunity/{id}")]
+        public ActionResult<IEnumerable<CandidateScoreValueObject>> GetCandidatesScoreByJobOpportunity(Guid id)
+        {
+            return _candidateApplication.GetCandidatesScoreByJobOpportunity(id);
+        }
+
     }
 }

@@ -14,5 +14,6 @@ namespace DesafioTecnico.Domain.Interfaces.Services.Company
         bool DeleteCompany(Guid id);
         void AddTecnologyToCompany(CompanyTecnologyValueObject companyTecnologyValueObject);
         void OpenJobOpportunity(JobOpportunityValueObject opportunity);
+        List<Models.JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId);
     }
 }

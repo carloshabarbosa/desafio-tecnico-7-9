@@ -112,8 +112,12 @@
             <e p="CompanyValidation.cs" t="Include" />
             <e p="DeleteCompanyValidation.cs" t="Include" />
           </e>
+          <e p="JobOpportunity" t="Include">
+            <e p="JobOpportunityValidation.cs" t="Include" />
+          </e>
         </e>
         <e p="ValueObjects" t="Include">
+          <e p="CandidateScoreValueObject.cs" t="Include" />
           <e p="CandidateValueObject.cs" t="Include" />
           <e p="CompanyTecnologyValueObject.cs" t="Include" />
           <e p="CompanyValueObject.cs" t="Include" />
@@ -174,8 +178,8 @@
           <e p="TecnologyWightMap.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20180617221738_InitialCreate.Designer.cs" t="Include" />
-          <e p="20180617221738_InitialCreate.cs" t="Include" />
+          <e p="20180617235632_InitialCreate.Designer.cs" t="Include" />
+          <e p="20180617235632_InitialCreate.cs" t="Include" />
           <e p="DesafioTecnicoContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Repository" t="Include">

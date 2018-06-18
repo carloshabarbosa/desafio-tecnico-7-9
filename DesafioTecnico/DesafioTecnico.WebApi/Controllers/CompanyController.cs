@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioTecnico.WebApi.Controllers
 {
+    /// <summary>
+    /// Controller responsável por ações da entidade empresa
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class CompanyController : ControllerBase
@@ -75,6 +78,14 @@ namespace DesafioTecnico.WebApi.Controllers
         public void OpenJobOpportunity([FromBody] JobOpportunityValueObject value)
         {
             _companyApplication.OpenJobOpportunity(value);
+        }
+        
+        // GET api/company/getTecnologiesByCompany/5
+        [HttpGet("{id}")]
+        [Route("GetJobOpportunitiesByCompanyId/{id}")]
+        public ActionResult<IEnumerable<JobOpportunity>> GetJobOpportunitiesByCompanyId(Guid id)
+        {
+            return _companyApplication.GetJobOpportunitiesByCompanyId(id);
         }
     }
 }

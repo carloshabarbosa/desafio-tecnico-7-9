@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using DesafioTecnico.Domain.Interfaces.Repository.JobOpportunity;
 using DesafioTecnico.Domain.Interfaces.Services.JobOpportunity;
 
@@ -37,6 +39,17 @@ namespace DesafioTecnico.Domain.Services.JobOpportunity
         public bool DeleteJobOpportunity(Guid id)
         {
             return _jobOpportunityRepository.DeleteJobOpportunity(id);
+        }
+
+        public List<Models.JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId)
+        {
+            return _jobOpportunityRepository.GetJobOpportunities().Where(j => j.Company.Id == companyId)
+                .Select(c => new Models.JobOpportunity
+                {
+                    Description = c.Description,
+                    Id = c.Id
+                })
+                .ToList();
         }
     }
 }

@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioTecnico.WebApi.Controllers
 {
+    /// <summary>
+    /// Controller responsável por ações da entidade de tecnologia
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class TecnologyController : ControllerBase

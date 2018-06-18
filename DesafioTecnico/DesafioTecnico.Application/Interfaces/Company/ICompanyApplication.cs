@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DesafioTecnico.Domain.Models;
 using DesafioTecnico.Domain.ValueObjects;
 
 namespace DesafioTecnico.Application.Interfaces.Company
@@ -14,5 +15,6 @@ namespace DesafioTecnico.Application.Interfaces.Company
         bool DeleteCompany(Guid id);
         void AddTecnologyToCompany(CompanyTecnologyValueObject companyTecnologyValueObject);
         void OpenJobOpportunity(JobOpportunityValueObject opportunity);
+        List<JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId);
     }
 }

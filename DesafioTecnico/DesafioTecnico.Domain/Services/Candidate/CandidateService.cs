@@ -64,6 +64,25 @@ namespace DesafioTecnico.Domain.Services.Candidate
         {
             return CanDelete(id) && _candidateRepository.DeleteCandidate(id);
         }
+        
+        public List<CandidateScoreValueObject> GetCandidatesScoreByJobOpportunity(Guid jobOpportunityId)
+        {
+            var jobOpportunity = _jobOpportunityService.GetJobOpportunities()
+                .FirstOrDefault(j => j.Id == jobOpportunityId);
+
+            return jobOpportunity.Candidates.Select(c => new CandidateScoreValueObject
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    Score = c.Tecnologies
+                        .Join(jobOpportunity.Tecnologies, 
+                            x => x.Tecnology.Id, 
+                            y => y.Tecnology.Id, 
+                            (x, y) => new { x, y}).Sum(t => t.y.Weight)
+                })
+                .OrderByDescending(t => t.Score)
+                .ToList();
+        }
 
         private bool CanDelete(Guid id)
         {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DesafioTecnico.Application.Interfaces.Company;
 using DesafioTecnico.Domain.Interfaces.Services;
 using DesafioTecnico.Domain.Interfaces.Services.Company;
+using DesafioTecnico.Domain.Models;
 using DesafioTecnico.Domain.ValueObjects;
 
 namespace DesafioTecnico.Application.Application.Company
@@ -54,6 +55,11 @@ namespace DesafioTecnico.Application.Application.Company
         public void OpenJobOpportunity(JobOpportunityValueObject opportunity)
         {
             _companyService.OpenJobOpportunity(opportunity);
+        }
+
+        public List<JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId)
+        {
+            return _companyService.GetJobOpportunitiesByCompanyId(companyId);
         }
     }
 }

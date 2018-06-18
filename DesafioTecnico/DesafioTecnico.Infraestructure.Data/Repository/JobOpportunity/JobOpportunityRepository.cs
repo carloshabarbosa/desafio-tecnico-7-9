@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DesafioTecnico.Domain.Interfaces.Repository.JobOpportunity;
 using DesafioTecnico.Infraestructure.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace DesafioTecnico.Infraestructure.Data.Repository.JobOpportunity
 {
@@ -14,11 +15,18 @@ namespace DesafioTecnico.Infraestructure.Data.Repository.JobOpportunity
 
         public List<Domain.Models.JobOpportunity> GetJobOpportunities()
         {
-            return GetAll().ToList();
+            return GetAll()
+                .Include(c => c.Company)
+                .Include(c => c.Company.JobOpportunities)
+                .Include(c => c.Candidates).ThenInclude(e => e.Tecnologies)
+                .Include(c => c.Tecnologies).ThenInclude(e => e.Tecnology)
+                .ToList();
         }
+        
 
         public Domain.Models.JobOpportunity GetJobOpportunity(Guid id)
         {
+
             return GetById(id);
         }
 

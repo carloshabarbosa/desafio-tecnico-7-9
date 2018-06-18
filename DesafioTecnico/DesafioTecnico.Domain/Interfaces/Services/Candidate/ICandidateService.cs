@@ -11,5 +11,6 @@ namespace DesafioTecnico.Domain.Interfaces.Services.Candidate
         Guid AddCandidate(CandidateValueObject candidate);
         void EditCandidate(Models.Candidate candidate, Guid id);
         bool DeleteCandidate(Guid id);
+        List<CandidateScoreValueObject> GetCandidatesScoreByJobOpportunity(Guid jobOpportunityId);
     }
 }

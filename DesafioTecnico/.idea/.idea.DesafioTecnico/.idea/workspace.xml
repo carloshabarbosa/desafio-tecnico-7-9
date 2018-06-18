@@ -4,7 +4,129 @@
     <bookmark url="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs" line="21" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6dff717-014f-47db-af48-dc3a7ed9d2f2" name="Default" comment="" />
+    <list default="true" id="d6dff717-014f-47db-af48-dc3a7ed9d2f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Validations/JobOpportunity/JobOpportunityValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateScoreValueObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesafioTecnico/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Application/obj/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain.Core/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Domain/obj/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/Microsoft.AspNetCore.Http.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/Microsoft.AspNetCore.Http.Abstractions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/Microsoft.AspNetCore.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/bin/Debug/netcoreapp2.1/Microsoft.AspNetCore.Http.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Migrations/20180617221738_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Migrations/20180617221738_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Migrations/DesafioTecnicoContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/obj/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Domain.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.CrossCutting.IoC.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.Infraestructure.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.WebApi.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.WebApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.WebApi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.WebApi.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/bin/Debug/netcoreapp2.1/DesafioTecnico.WebApi.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioTecnico.WebApi/obj/Debug/netcoreapp2.1/DesafioTecnico.WebApi.pdb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,59 +161,54 @@
         <item name="DesafioTecnico: database" type="bdf80c8a:MssqlImplModel$Database" />
         <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DesafioTecnico@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="DesafioTecnico: database" type="bdf80c8a:MssqlImplModel$Database" />
-        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
-        <item name="Candidates: table" type="a00791b9:MssqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompanyController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs">
+      <file leaf-file-name="CandidateController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="305">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="50" />
               <folding>
-                <marker date="1529263842532" expanded="false" signature="6:210" ph="..." />
-                <marker date="1529263842532" expanded="true" signature="255:2363" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="361:2361" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="507:581" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="683:758" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="864:939" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="1038:1109" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="1224:1300" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="1398:1469" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="1676:1758" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="1985:2080" ph="{...}" />
-                <marker date="1529263842532" expanded="true" signature="2276:2355" ph="{...}" />
+                <marker date="1529280606900" expanded="false" signature="6:212" ph="..." />
+                <marker date="1529280606900" expanded="true" signature="257:2087" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="264:362" ph="/// Controller responsável por ações da entidade de candidato ... " />
+                <marker date="1529280606900" expanded="true" signature="468:2085" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="483:553" ph="/// Injeção das depências ... " />
+                <marker date="1529280606900" expanded="true" signature="703:781" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="885:963" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="1071:1150" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="1262:1337" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="1454:1534" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="1632:1707" ph="{...}" />
+                <marker date="1529280606900" expanded="true" signature="1977:2078" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyApplication.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs">
+      <file leaf-file-name="CompanyController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="230">
+              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
-                <marker date="1529263776800" expanded="false" signature="6:248" ph="..." />
-                <marker date="1529263776800" expanded="true" signature="306:1783" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="366:1781" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="497:563" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="622:693" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="793:882" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="940:1011" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="1074:1150" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="1223:1297" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="1341:1415" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="1515:1615" ph="{...}" />
-                <marker date="1529263776800" expanded="true" signature="1694:1775" ph="{...}" />
+                <marker date="1529280885088" expanded="false" signature="6:210" ph="..." />
+                <marker date="1529280885088" expanded="true" signature="255:2796" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="262:355" ph="/// Controller responsável por ações da entidade empresa ... " />
+                <marker date="1529280885088" expanded="true" signature="459:2794" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="605:679" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="781:856" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="962:1037" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="1136:1207" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="1322:1398" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="1496:1567" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="1774:1856" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="2083:2178" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="2374:2453" ph="{...}" />
+                <marker date="1529280885088" expanded="true" signature="2693:2788" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,139 +217,144 @@
       <file leaf-file-name="CompanyService.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
               <folding>
-                <marker date="1529265137676" expanded="false" signature="6:498" ph="..." />
-                <marker date="1529265137676" expanded="true" signature="548:3815" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="600:3813" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="1081:1327" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="1379:1453" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="1537:1644" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="1695:1769" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="1825:1937" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="2003:2119" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="2163:2257" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="2346:2701" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="2438:2608" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="2780:3575" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="3027:3491" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="3274:3463" ph="{...}" />
-                <marker date="1529265137676" expanded="true" signature="3616:3807" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="6:498" ph="..." />
+                <marker date="1529280750436" expanded="true" signature="548:4019" ph="{...}" />
+                <marker date="1529280750436" expanded="true" signature="600:4017" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="1081:1327" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="1379:1453" ph="{...}" />
+                <marker date="1529280750436" expanded="true" signature="1552:1657" ph="{...}" />
+                <marker date="1529280750436" expanded="true" signature="1741:1848" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="1899:1973" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="2029:2141" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="2207:2323" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="2367:2461" ph="{...}" />
+                <marker date="1529280750436" expanded="true" signature="2550:2905" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="2642:2812" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="2984:3779" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="3231:3695" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="3478:3667" ph="{...}" />
+                <marker date="1529280750436" expanded="false" signature="3820:4011" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TecnologyController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs">
+      <file leaf-file-name="CompanyApplication.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="331">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="34" />
               <folding>
-                <marker date="1529254614043" expanded="false" signature="6:170" ph="..." />
-                <marker date="1529254614043" expanded="true" signature="215:1492" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="323:1490" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="479:557" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="664:743" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="853:932" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="1035:1110" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="1229:1309" ph="{...}" />
-                <marker date="1529254614043" expanded="true" signature="1409:1484" ph="{...}" />
+                <marker date="1529280854628" expanded="false" signature="6:284" ph="..." />
+                <marker date="1529280854628" expanded="true" signature="342:2001" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="402:1999" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="533:599" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="658:729" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="829:918" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="976:1047" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1110:1186" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1259:1333" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1377:1451" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1551:1651" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1730:1811" ph="{...}" />
+                <marker date="1529280854628" expanded="true" signature="1895:1993" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TecnologyApplication.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Tecnology/TecnologyApplication.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <marker date="1529254572539" expanded="false" signature="6:161" ph="..." />
-                <marker date="1529254572539" expanded="true" signature="222:1214" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="286:1212" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="427:497" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="560:635" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="697:772" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="841:923" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="1002:1082" ph="{...}" />
-                <marker date="1529254572539" expanded="true" signature="1128:1206" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidateService.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CandidateService.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="182">
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
-                <marker date="1529272312152" expanded="false" signature="6:438" ph="..." />
-                <marker date="1529272312152" expanded="true" signature="490:2758" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="546:2756" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="911:1097" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="1152:1229" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="1284:1362" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="1428:2121" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="1506:1985" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="1876:1961" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="2193:2345" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="2240:2335" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="2391:2489" ph="{...}" />
-                <marker date="1529272312152" expanded="true" signature="2530:2741" ph="{...}" />
+                <marker date="1529282149396" expanded="false" signature="6:438" ph="..." />
+                <marker date="1529282149396" expanded="true" signature="490:3574" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="546:3572" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="911:1097" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="1152:1229" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="1284:1362" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="1428:2121" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="1506:1985" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="1876:1961" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="2193:2345" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="2240:2335" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="2391:2489" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="2603:3305" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="2860:3218" ph="{...}" />
+                <marker date="1529282149396" expanded="true" signature="3346:3557" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Candidate.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/Candidate.cs">
+      <file leaf-file-name="IJobOpportunityService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="30">
+              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
               <folding>
-                <marker date="1529249045736" expanded="false" signature="6:165" ph="..." />
-                <marker date="1529249045736" expanded="true" signature="205:716" ph="{...}" />
-                <marker date="1529249045736" expanded="true" signature="243:714" ph="{...}" />
-                <marker date="1529249045736" expanded="true" signature="573:708" ph="{...}" />
+                <marker date="1529280712724" expanded="false" signature="6:47" ph="..." />
+                <marker date="1529280712724" expanded="false" signature="115:570" ph="{...}" />
+                <marker date="1529280712724" expanded="false" signature="161:568" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandidateMap.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateMap.cs">
+      <file leaf-file-name="JobOpportunityService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="129">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
-                <marker date="1529273419632" expanded="false" signature="6:127" ph="..." />
-                <marker date="1529273419632" expanded="true" signature="183:1123" ph="{...}" />
-                <marker date="1529273419632" expanded="true" signature="253:1121" ph="{...}" />
-                <marker date="1529273419632" expanded="true" signature="327:1115" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="6:249" ph="..." />
+                <marker date="1529281337724" expanded="true" signature="306:1865" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="372:1863" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="546:632" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="698:786" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="851:939" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="1016:1116" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="1203:1301" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="1352:1443" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="1534:1857" ph="{...}" />
+                <marker date="1529281337724" expanded="true" signature="1721:1819" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandidateValidation.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateValidation.cs">
+      <file leaf-file-name="JobOpportunityRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <marker date="1529249851356" expanded="false" signature="6:37" ph="..." />
-                <marker date="1529249851356" expanded="true" signature="92:1162" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="184:1160" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="228:458" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="504:639" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="689:832" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="880:1019" ph="{...}" />
-                <marker date="1529249851356" expanded="true" signature="1064:1154" ph="{...}" />
+                <marker date="1529282495184" expanded="false" signature="6:183" ph="..." />
+                <marker date="1529282495184" expanded="true" signature="293:2134" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="407:2132" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="500:520" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="593:918" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="999:1052" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="1136:1307" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="1401:1834" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="1885:2126" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="1911:2027" ph="{...}" />
+                <marker date="1529282495184" expanded="true" signature="2058:2116" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/13ff9dc2-3b33-46a2-9826-6b1e071178d6/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -310,6 +432,7 @@
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateTecnologyMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunityTecnology.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/CandidateTecnology.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateScoreValueObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/CompanyTecnology.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyWeightValueObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/DependencyInjetctionBootStrapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -330,13 +453,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Tecnology/TecnologyRepository.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Tecnology/TecnologyService.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain.Core/Models/ValueObject.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyValueObject.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/InterviewValueObject.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyWeightValueObject.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Company.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunity.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Candidate.cs" />
@@ -352,7 +469,6 @@
         <option value="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Tecnology/ITecnologyApplication.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Models/Tecnology.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Application/Application/Tecnology/TecnologyApplication.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/CompanyTecnology/ICompanyTecnologyRepository.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/CompanyTecnology/ICompanyTecnologyService.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/CompanyTecnology/CompanyTecnologyService.cs" />
@@ -362,25 +478,32 @@
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/TecnologyWeight/ITecnologyWeightService.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/TecnologyWeight/TecnologyWeightService.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyWightMap.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunityTecnology.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/JobOpportunityValueObject.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/JobOpportunityTecnologyValueObject.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateValueObject.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CompanyValueObject.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Context/DesafioTecnicoContext.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.CrossCutting.IoC/DependencyInjetctionBootStrapper.cs" />
         <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/CandidateMap.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateScoreValueObject.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/13ff9dc2-3b33-46a2-9826-6b1e071178d6/console.sql" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs" />
+        <option value="$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs" />
       </list>
     </option>
   </component>
@@ -418,6 +541,222 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1-Services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1-Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.WebApi" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="1-Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.WebApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Application" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Application" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Candidate" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Interfaces" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="2-Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Application" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Interfaces" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Candidate" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Candidate" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Company" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="JobOpportunity" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="3-Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ValueObjects" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Mappings" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Candidate" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="JobOpportunity" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.1-Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.Data" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tecnology" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.2-CrossCutting" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DesafioTecnico (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4-Infraestructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="4.2-CrossCutting" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DesafioTecnico.Infraestructure.CrossCutting.IoC" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -490,7 +829,7 @@
       <workItem from="1529239679170" duration="11201000" />
       <workItem from="1529254162264" duration="2806000" />
       <workItem from="1529259859286" duration="6525000" />
-      <workItem from="1529271959970" duration="1793000" />
+      <workItem from="1529271959970" duration="8379000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando o projetp">
       <created>1529174323618</created>
@@ -517,7 +856,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40137000" />
+    <option name="totallyTimeSpent" value="46723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,7 +872,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32930514" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -542,13 +881,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32903227" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49935484" visible="true" weight="0.20474967" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3264516" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20731707" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32387096" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20731707" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50064516" side_tool="true" weight="0.16816431" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4683871" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46709678" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,7 +897,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32903227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,22 +912,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs</url>
-          <line>38</line>
-          <properties documentPath="$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs" initialLine="38">
-            <startOffsets>
-              <startOffset value="1103" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1145" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -621,122 +945,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
-          <folding>
-            <marker date="1529246334708" expanded="false" signature="6:183" ph="..." />
-            <marker date="1529246334708" expanded="true" signature="370:1818" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="463:483" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="556:614" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="686:738" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="822:993" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="1087:1520" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="1571:1812" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="1597:1713" ph="{...}" />
-            <marker date="1529246334708" expanded="true" signature="1744:1802" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/TecnologyValueObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1529247969996" expanded="true" signature="84:180" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/TecnologyWeight.cs" />
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/TecnologyWeight/ITecnologyWeightRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/TecnologyWeight/TecnologyWeightRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/TecnologyWeight/ITecnologyWeightService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/TecnologyWeight/TecnologyWeightService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/TecnologyWightMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <marker date="1529262578188" expanded="false" signature="6:127" ph="..." />
-            <marker date="1529262578188" expanded="true" signature="283:683" ph="{...}" />
-            <marker date="1529262578188" expanded="true" signature="290:677" ph="/* public void Configure(EntityTypeBuilder&lt;TecnologyWeight&gt; builder) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <marker date="1529249036372" expanded="false" signature="6:100" ph="..." />
-            <marker date="1529249036372" expanded="true" signature="187:421" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <marker date="1529263776776" expanded="false" signature="6:89" ph="..." />
-            <marker date="1529263776776" expanded="true" signature="189:677" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <marker date="1529263776824" expanded="false" signature="6:89" ph="..." />
-            <marker date="1529263776824" expanded="true" signature="189:721" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DFC8E72A-7C99-4B71-9C34-D6BAAFA51091/45/cdbb47f8/Thread.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/Tecnologies">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/JobOpportunityValueObject.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -766,89 +974,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/JobOpportunityTecnologies">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="38" selection-start-line="8" selection-start-column="7" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <marker date="1529248805904" expanded="false" signature="6:89" ph="..." />
-            <marker date="1529248805904" expanded="true" signature="193:464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <marker date="1529265845344" expanded="true" signature="6:89" ph="..." />
-            <marker date="1529265845344" expanded="true" signature="193:494" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1529246334728" expanded="false" signature="6:177" ph="..." />
-            <marker date="1529246334728" expanded="true" signature="234:1379" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="300:1377" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="474:560" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="626:714" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="779:867" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="944:1044" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="1131:1229" ph="{...}" />
-            <marker date="1529246334728" expanded="true" signature="1280:1371" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/Candidates">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/JobOpportunities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <marker date="1529244012973" expanded="false" signature="6:364" ph="..." />
-            <marker date="1529244012973" expanded="true" signature="432:1951" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="531:1949" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="628:648" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="710:768" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="830:882" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="951:1107" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="1186:1656" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="1702:1943" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="1728:1844" ph="{...}" />
-            <marker date="1529244012973" expanded="true" signature="1875:1933" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Repository/Candidate/ICandidateRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -935,20 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Interview/InterviewService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/InterviewMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CompanyValueObject.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -957,13 +1070,6 @@
             <marker date="1529273204176" expanded="true" signature="79:463" ph="{...}" />
             <marker date="1529273204176" expanded="true" signature="82:461" ph="/* public class CompanyValueObject ... */" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Interview/InterviewRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -995,149 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <marker date="1529272030500" expanded="false" signature="6:212" ph="..." />
-            <marker date="1529272030500" expanded="true" signature="257:1533" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="365:1531" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="521:599" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="703:781" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="889:968" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="1080:1155" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="1272:1352" ph="{...}" />
-            <marker date="1529272030500" expanded="true" signature="1450:1525" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding>
-            <marker date="1529265884548" expanded="false" signature="6:203" ph="..." />
-            <marker date="1529265884548" expanded="true" signature="263:1249" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="327:1247" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="468:538" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="600:674" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="736:811" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="877:959" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="1038:1117" ph="{...}" />
-            <marker date="1529265884548" expanded="true" signature="1163:1241" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <marker date="1529272312152" expanded="false" signature="6:438" ph="..." />
-            <marker date="1529272312152" expanded="true" signature="490:2758" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="546:2756" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="911:1097" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="1152:1229" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="1284:1362" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="1428:2121" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="1506:1985" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="1876:1961" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="2193:2345" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="2240:2335" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="2391:2489" ph="{...}" />
-            <marker date="1529272312152" expanded="true" signature="2530:2741" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <marker date="1529263842532" expanded="false" signature="6:210" ph="..." />
-            <marker date="1529263842532" expanded="true" signature="255:2363" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="361:2361" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="507:581" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="683:758" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="864:939" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="1038:1109" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="1224:1300" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="1398:1469" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="1676:1758" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="1985:2080" ph="{...}" />
-            <marker date="1529263842532" expanded="true" signature="2276:2355" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <marker date="1529263776800" expanded="false" signature="6:248" ph="..." />
-            <marker date="1529263776800" expanded="true" signature="306:1783" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="366:1781" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="497:563" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="622:693" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="793:882" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="940:1011" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="1074:1150" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="1223:1297" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="1341:1415" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="1515:1615" ph="{...}" />
-            <marker date="1529263776800" expanded="true" signature="1694:1775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <marker date="1529265137676" expanded="false" signature="6:498" ph="..." />
-            <marker date="1529265137676" expanded="true" signature="548:3815" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="600:3813" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="1081:1327" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="1379:1453" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="1537:1644" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="1695:1769" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="1825:1937" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="2003:2119" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="2163:2257" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="2346:2701" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="2438:2608" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="2780:3575" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="3027:3491" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="3274:3463" ph="{...}" />
-            <marker date="1529265137676" expanded="true" signature="3616:3807" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <marker date="1529254614043" expanded="false" signature="6:170" ph="..." />
-            <marker date="1529254614043" expanded="true" signature="215:1492" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="323:1490" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="479:557" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="664:743" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="853:932" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="1035:1110" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="1229:1309" ph="{...}" />
-            <marker date="1529254614043" expanded="true" signature="1409:1484" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Tecnology/TecnologyApplication.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1153,13 +1116,6 @@
             <marker date="1529254572539" expanded="true" signature="1002:1082" ph="{...}" />
             <marker date="1529254572539" expanded="true" signature="1128:1206" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/CandidateTecnologies">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1198,8 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Validations/Candidate/CandidateValidation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <marker date="1529249851356" expanded="false" signature="6:37" ph="..." />
             <marker date="1529249851356" expanded="true" signature="92:1162" ph="{...}" />
@@ -1209,6 +1165,445 @@
             <marker date="1529249851356" expanded="true" signature="689:832" ph="{...}" />
             <marker date="1529249851356" expanded="true" signature="880:1019" ph="{...}" />
             <marker date="1529249851356" expanded="true" signature="1064:1154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/TecnologyController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding>
+            <marker date="1529274051848" expanded="false" signature="6:170" ph="..." />
+            <marker date="1529274051848" expanded="true" signature="215:1596" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="222:321" ph="/// Controller responsável por ações da entidade de tecnologia ... " />
+            <marker date="1529274051848" expanded="true" signature="427:1594" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="583:661" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="768:847" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="957:1036" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="1139:1214" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="1333:1413" ph="{...}" />
+            <marker date="1529274051848" expanded="true" signature="1513:1588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/JobOpportunity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1529249036372" expanded="false" signature="6:100" ph="..." />
+            <marker date="1529249036372" expanded="true" signature="144:423" ph="{...}" />
+            <marker date="1529249036372" expanded="true" signature="187:421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Candidate/CandidateRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1529277787040" expanded="true" signature="6:364" ph="..." />
+            <marker date="1529277787040" expanded="true" signature="432:1951" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="531:1949" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="628:648" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="710:768" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="830:882" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="951:1107" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="1186:1656" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="1702:1943" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="1728:1844" ph="{...}" />
+            <marker date="1529277787040" expanded="true" signature="1875:1933" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/CandidateTecnologies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Models/CandidateTecnology.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <marker date="1529250158296" expanded="false" signature="6:74" ph="..." />
+            <marker date="1529250158296" expanded="true" signature="114:274" ph="{...}" />
+            <marker date="1529250158296" expanded="true" signature="161:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/ValueObjects/CandidateScoreValueObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1529279291520" expanded="true" signature="59:235" ph="{...}" />
+            <marker date="1529279291520" expanded="true" signature="104:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Candidate/ICandidateService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="98" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="98" />
+          <folding>
+            <marker date="1529279291468" expanded="false" signature="6:89" ph="..." />
+            <marker date="1529279291468" expanded="true" signature="152:565" ph="{...}" />
+            <marker date="1529279291468" expanded="true" signature="193:563" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Candidate/ICandidateApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+          <folding>
+            <marker date="1529279331824" expanded="false" signature="6:89" ph="..." />
+            <marker date="1529279331824" expanded="true" signature="148:586" ph="{...}" />
+            <marker date="1529279331824" expanded="true" signature="193:584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Candidate/CandidateApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+          <folding>
+            <marker date="1529279332456" expanded="false" signature="6:203" ph="..." />
+            <marker date="1529279332456" expanded="true" signature="263:1466" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="327:1464" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="468:538" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="600:674" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="736:811" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="877:959" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="1038:1117" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="1163:1241" ph="{...}" />
+            <marker date="1529279332456" expanded="true" signature="1347:1458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Interview/InterviewService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Mappings/InterviewMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/TecnologyWeight/TecnologyWeightRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Migrations/20180617221738_InitialCreate.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/Interview/InterviewRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Migrations/20180617221738_InitialCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="202" column="32" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/TecnologyWeight/TecnologyWeightService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/JobOpportunityTecnologies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/JobOpportunities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://13ff9dc2-3b33-46a2-9826-6b1e071178d6/database/DesafioTecnico/schema/dbo/table/Candidates">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/Company/ICompanyService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <marker date="1529280854592" expanded="false" signature="6:89" ph="..." />
+            <marker date="1529280854592" expanded="true" signature="150:763" ph="{...}" />
+            <marker date="1529280854592" expanded="true" signature="189:761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Interfaces/Company/ICompanyApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <marker date="1529280854608" expanded="false" signature="6:125" ph="..." />
+            <marker date="1529280854608" expanded="true" signature="182:836" ph="{...}" />
+            <marker date="1529280854608" expanded="true" signature="225:834" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Application/Application/Company/CompanyApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <marker date="1529280854628" expanded="false" signature="6:284" ph="..." />
+            <marker date="1529280854628" expanded="true" signature="342:2001" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="402:1999" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="533:599" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="658:729" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="829:918" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="976:1047" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1110:1186" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1259:1333" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1377:1451" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1551:1651" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1730:1811" ph="{...}" />
+            <marker date="1529280854628" expanded="true" signature="1895:1993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CandidateController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="50" />
+          <folding>
+            <marker date="1529280606900" expanded="false" signature="6:212" ph="..." />
+            <marker date="1529280606900" expanded="true" signature="257:2087" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="264:362" ph="/// Controller responsável por ações da entidade de candidato ... " />
+            <marker date="1529280606900" expanded="true" signature="468:2085" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="483:553" ph="/// Injeção das depências ... " />
+            <marker date="1529280606900" expanded="true" signature="703:781" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="885:963" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="1071:1150" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="1262:1337" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="1454:1534" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="1632:1707" ph="{...}" />
+            <marker date="1529280606900" expanded="true" signature="1977:2078" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.WebApi/Controllers/CompanyController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <marker date="1529280885088" expanded="false" signature="6:210" ph="..." />
+            <marker date="1529280885088" expanded="true" signature="255:2796" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="262:355" ph="/// Controller responsável por ações da entidade empresa ... " />
+            <marker date="1529280885088" expanded="true" signature="459:2794" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="605:679" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="781:856" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="962:1037" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="1136:1207" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="1322:1398" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="1496:1567" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="1774:1856" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="2083:2178" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="2374:2453" ph="{...}" />
+            <marker date="1529280885088" expanded="true" signature="2693:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Company/CompanyService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
+          <folding>
+            <marker date="1529280750436" expanded="false" signature="6:498" ph="..." />
+            <marker date="1529280750436" expanded="true" signature="548:4019" ph="{...}" />
+            <marker date="1529280750436" expanded="true" signature="600:4017" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="1081:1327" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="1379:1453" ph="{...}" />
+            <marker date="1529280750436" expanded="true" signature="1552:1657" ph="{...}" />
+            <marker date="1529280750436" expanded="true" signature="1741:1848" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="1899:1973" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="2029:2141" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="2207:2323" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="2367:2461" ph="{...}" />
+            <marker date="1529280750436" expanded="true" signature="2550:2905" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="2642:2812" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="2984:3779" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="3231:3695" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="3478:3667" ph="{...}" />
+            <marker date="1529280750436" expanded="false" signature="3820:4011" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/13ff9dc2-3b33-46a2-9826-6b1e071178d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Interfaces/Services/JobOpportunity/IJobOpportunityService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+          <folding>
+            <marker date="1529280712724" expanded="false" signature="6:47" ph="..." />
+            <marker date="1529280712724" expanded="false" signature="115:570" ph="{...}" />
+            <marker date="1529280712724" expanded="false" signature="161:568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DFC8E72A-7C99-4B71-9C34-D6BAAFA51091/45/cdbb47f8/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <marker date="1529264301276" expanded="true" signature="0:323" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1529264301276" expanded="false" signature="331:505" ph="..." />
+            <marker date="1529264301276" expanded="true" signature="533:7074" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="582:7072" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="1062:1074" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="1112:1254" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="1312:1600" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="1651:1793" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="1864:2152" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="2191:2239" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="2381:2629" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="2674:2878" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="2907:3094" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3142:3287" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3158:3214" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3224:3281" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3347:3504" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3363:3425" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3435:3498" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="3887:3948" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="4116:4171" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="4310:4359" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="4399:4485" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="4415:4479" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="4733:5042" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5175:5218" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5353:5637" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5369:5430" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5440:5631" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5676:5956" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5692:5751" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="5761:5950" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="6331:6418" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="6457:6510" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="6538:6922" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="6554:6598" ph="{...}" />
+            <marker date="1529264301276" expanded="true" signature="6608:6916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Infraestructure.Data/Repository/JobOpportunity/JobOpportunityRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1529282495184" expanded="false" signature="6:183" ph="..." />
+            <marker date="1529282495184" expanded="true" signature="293:2134" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="407:2132" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="500:520" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="593:918" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="999:1052" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="1136:1307" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="1401:1834" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="1885:2126" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="1911:2027" ph="{...}" />
+            <marker date="1529282495184" expanded="true" signature="2058:2116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/JobOpportunity/JobOpportunityService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <marker date="1529281337724" expanded="true" signature="6:249" ph="..." />
+            <marker date="1529281337724" expanded="true" signature="306:1865" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="372:1863" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="546:632" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="698:786" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="851:939" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="1016:1116" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="1203:1301" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="1352:1443" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="1534:1857" ph="{...}" />
+            <marker date="1529281337724" expanded="true" signature="1721:1819" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesafioTecnico.Domain/Services/Candidate/CandidateService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <marker date="1529282149396" expanded="false" signature="6:438" ph="..." />
+            <marker date="1529282149396" expanded="true" signature="490:3574" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="546:3572" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="911:1097" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="1152:1229" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="1284:1362" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="1428:2121" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="1506:1985" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="1876:1961" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="2193:2345" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="2240:2335" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="2391:2489" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="2603:3305" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="2860:3218" ph="{...}" />
+            <marker date="1529282149396" expanded="true" signature="3346:3557" ph="{...}" />
           </folding>
         </state>
       </provider>

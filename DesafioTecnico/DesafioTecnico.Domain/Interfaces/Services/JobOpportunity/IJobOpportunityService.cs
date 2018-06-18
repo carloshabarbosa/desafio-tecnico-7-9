@@ -10,5 +10,6 @@ namespace DesafioTecnico.Domain.Interfaces.Services.JobOpportunity
         Guid AddJobOpportunity(Models.JobOpportunity jobOpportunity);
         void EditJobOpportunity(Models.JobOpportunity jobOpportunity, Guid id);
         bool DeleteJobOpportunity(Guid id);
+        List<Models.JobOpportunity> GetJobOpportunitiesByCompanyId(Guid companyId);
     }
 }

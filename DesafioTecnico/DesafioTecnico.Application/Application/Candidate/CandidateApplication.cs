@@ -39,5 +39,10 @@ namespace DesafioTecnico.Application.Application.Candidate
         {
             return _candidateService.DeleteCandidate(id);
         }
+
+        public List<CandidateScoreValueObject> GetCandidatesScoreByJobOpportunity(Guid jobOpportunityId)
+        {
+            return _candidateService.GetCandidatesScoreByJobOpportunity(jobOpportunityId);
+        }
     }
 }

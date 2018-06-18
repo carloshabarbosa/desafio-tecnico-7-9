@@ -1,0 +1,430 @@
+{
+	"info": {
+		"_postman_id": "c8d31df6-e04e-48c5-be33-e187fba6a4e0",
+		"name": "DesafioTecnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Company",
+			"description": "",
+			"item": [
+				{
+					"name": "AddCompany",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Name\": \"Teste\",\n\t\"Cnpj\": \"69.155.957/0001-03\",\n\t\"Address\": \"teste123\",\n\t\"Phone\": \"(43) 98437-2682\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/company/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"company",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCompanies",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/company",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCompany",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/company/CE189C21-AF36-4CD9-9837-07E217F5536F",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"company",
+								"CE189C21-AF36-4CD9-9837-07E217F5536F"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditCompany",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Name\": \"Testes\",\n\t\"Cnpj\": \"69.155.957/0001-03\",\n\t\"Address\": \"teste123\",\n\t\"Phone\": \"(43) 98437-2682\"\n}"
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/company/CE189C21-AF36-4CD9-9837-07E217F5536F",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"company",
+								"CE189C21-AF36-4CD9-9837-07E217F5536F"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTecnologyToCompany",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"companyId\": \"ef016c39-6ce0-46a3-81e7-80f1e9c8b04d\",\n\t\"tecnologyId\": \"435f6854-01a8-4a5d-b51f-ce1e62242056\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/company/AddTecnologyToCompany",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"company",
+								"AddTecnologyToCompany"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTecnologiesByCompany",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/company/GetTecnologiesByCompany/ef016c39-6ce0-46a3-81e7-80f1e9c8b04d",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"company",
+								"GetTecnologiesByCompany",
+								"ef016c39-6ce0-46a3-81e7-80f1e9c8b04d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddJobOpportunity",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"description\": \"Senior .Net Developer\",\n\t\"companyId\" : \"ef016c39-6ce0-46a3-81e7-80f1e9c8b04d\",\n\t\"tecnologies\": [\n\t\t{\n\t\t\t\"tecnologyId\": \"0e42736b-e6f7-4077-a068-672d90c8e22f\",\n\t\t\t\"weight\": 0\n\t\t},\n\t\t{\n\t\t\t\"tecnologyId\": \"435f6854-01a8-4a5d-b51f-ce1e62242056\",\n\t\t\t\"weight\": 0\n\t\t},\n\t\t{\n\t\t\t\"tecnologyId\": \"4f6a8ba6-2e48-42f1-adaf-808dc82095eb\",\n\t\t\t\"weight\": 90\n\t\t},\n\t\t{\n\t\t\t\"tecnologyId\": \"432c5cdf-9508-4e02-b6b5-039375ca881b\",\n\t\t\t\"weight\": 100\n\t\t}\n\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/company/OpenJobOpportunity",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"company",
+								"OpenJobOpportunity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobOpportunitiesByCompanyId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/company/GetJobOpportunitiesByCompanyId/ef016c39-6ce0-46a3-81e7-80f1e9c8b04d",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"company",
+								"GetJobOpportunitiesByCompanyId",
+								"ef016c39-6ce0-46a3-81e7-80f1e9c8b04d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tecnology",
+			"description": "",
+			"item": [
+				{
+					"name": "GetAllTecnologies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/tecnology",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"tecnology"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTecnology",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Python\", \n\t\"isActive\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/tecnology",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"tecnology"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteTecnology",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/tecnology/f9db426f-0114-4f38-bcde-0e1ddce2d7f8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"tecnology",
+								"f9db426f-0114-4f38-bcde-0e1ddce2d7f8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditTecnology",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \".NET MVC core\", \n\t\"isActive\": true\n}"
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/tecnology/f9db426f-0114-4f38-bcde-0e1ddce2d7f8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"tecnology",
+								"f9db426f-0114-4f38-bcde-0e1ddce2d7f8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Candidate",
+			"description": "",
+			"item": [
+				{
+					"name": "AddCandidate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Teste candidato 232\",\n\t\"cpf\": \"075.061.789-66\",\n\t\"address\": \"Teste interesse\",\n\t\"phone\": \"(43) 9847-2682\",\n\t\"jobOpportunityId\": \"964940BF-550B-423B-8032-3EECBAFF9499\",\n\t\"tecnologies\": [\n\t\t\t\"435F6854-01A8-4A5D-B51F-CE1E62242056\",\n\t\t\t\"435F6854-01A8-4A5D-B51F-CE1E62242056\"\n\t\t\n\t\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/candidate/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"candidate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCandidates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:5000/api/candidate/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"candidate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCandidatesScoreByJobOpportunity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://localhost:5001/api/candidate/GetCandidatesScoreByJobOpportunity/964940bf-550b-423b-8032-3eecbaff9499",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"candidate",
+								"GetCandidatesScoreByJobOpportunity",
+								"964940bf-550b-423b-8032-3eecbaff9499"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
